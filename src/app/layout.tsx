@@ -32,7 +32,6 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
     >
       <body className="flex min-h-full flex-col bg-base-100 font-sans text-base-content">
         <WorkoutsProvider>
-          {/* Navbar reads the current URL (usePathname), so it needs Suspense */}
           <Suspense
             fallback={<div className="h-14 border-b border-base-300" />}
           >

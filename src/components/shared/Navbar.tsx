@@ -18,7 +18,6 @@ const Navbar = () => {
   return (
     <header className="sticky top-0 z-40 border-b border-base-300 bg-base-100/90 backdrop-blur">
       <nav className="mx-auto flex h-14 w-full max-w-6xl items-center justify-between gap-2 px-4 sm:px-6">
-        {/* Left: Logo (text is hidden on very small screens) */}
         <Link href="/" className="flex items-center gap-2">
           <Dumbbell className="h-5 w-5 text-primary" />
           <span className="font-display hidden text-sm font-bold tracking-wider min-[420px]:inline">
@@ -26,7 +25,6 @@ const Navbar = () => {
           </span>
         </Link>
 
-        {/* Middle: Links */}
         <ul className="flex items-center gap-1">
           {links.map((link) => {
             const isActive = pathname === link.href;
@@ -48,7 +46,6 @@ const Navbar = () => {
           })}
         </ul>
 
-        {/* Right: Counters */}
         <div className="flex items-center gap-2">
           <Link
             href="/my-plan"
