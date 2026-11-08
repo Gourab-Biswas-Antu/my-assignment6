@@ -2,8 +2,8 @@
 
 import Loader from "@/components/shared/Loader";
 import PlanCard from "@/components/shared/PlanCard";
-import { WorkoutsContext } from "@/components/context/WorkoutsContext";
-import { IWorkout } from "@/components/types/workouts.type";
+import { WorkoutsContext } from "@/context/WorkoutsContext";
+import { IWorkout } from "@/types/workouts.type";
 import Link from "next/link";
 import { useContext, useState } from "react";
 

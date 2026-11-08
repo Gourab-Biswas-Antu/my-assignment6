@@ -1,6 +1,6 @@
 import AddToPlanButton from "@/components/workoutDetails/AddToPlanButton";
 import SaveForLaterButton from "@/components/workoutDetails/SaveForLaterButton";
-import { IWorkout } from "@/components/types/workouts.type";
+import { IWorkout } from "@/types/workouts.type";
 import Image from "next/image";
 import { notFound } from "next/navigation";
 
