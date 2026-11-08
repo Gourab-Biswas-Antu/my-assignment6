@@ -2,8 +2,8 @@
 
 FitLog is a dark, no-nonsense gym companion. Browse a library of workouts, lock your favourites into today's plan, save others for later, and track minutes and calories as you go.
 
-🔗 **Live Link:** (your link here)
-📦 **GitHub:** (your repo link here)
+🔗 **Live Link:** ([your linek her](https://my-assignment6-one.vercel.app))
+📦 **GitHub:** ([your repo link here](https://github.com/Gourab-Biswas-Antu/my-assignment6))
 
 ## 🛠️ Technologies Used
 
